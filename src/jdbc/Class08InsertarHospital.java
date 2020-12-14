@@ -40,6 +40,7 @@ public class Class08InsertarHospital {
         System.out.println("Hospitales insertados: " + insertados);
         String consultaselect = "select * from hospital";
         ResultSet rs = st.executeQuery(consultaselect);
+
         System.out.println("HOSPITALES");
         while (rs.next()) {
             String name = rs.getString("NOMBRE");
