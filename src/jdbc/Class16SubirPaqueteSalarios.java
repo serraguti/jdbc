@@ -44,7 +44,8 @@ public class Class16SubirPaqueteSalarios {
         String cadena = "jdbc:oracle:thin:@LOCALHOST:1521:XE";
         Connection cn
                 = DriverManager.getConnection(cadena, "system", "oracle");
-        String consultapaquete = "{ call paquetemartes.incrementarsalarios(?,?) }";
+        String consultapaquete
+                = "{ call paquetemartes.incrementarsalarios(?,?) }";
         CallableStatement cst = cn.prepareCall(consultapaquete);
         cst.setString(1, oficio);
         cst.setInt(2, incremento);
