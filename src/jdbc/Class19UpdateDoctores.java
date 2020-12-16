@@ -1,12 +1,13 @@
 package jdbc;
 
-//<editor-fold defaultstate="collapsed" desc="PROCEDURE OUT">
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Scanner;
 import oracle.jdbc.OracleDriver;
+//<editor-fold defaultstate="collapsed" desc="PROCEDURE OUT">
+
 
 /*
 create or replace procedure updatesalariodoctores
