@@ -8,6 +8,7 @@ import java.sql.SQLException;
 import oracle.jdbc.OracleDriver;
 import oracle.jdbc.internal.OracleTypes;
 
+//<editor-fold defaultstate="collapsed" desc="PROCEDURE AND PACKAGE">
 /*
 create or replace package pqtipos
 is
@@ -40,6 +41,7 @@ begin
   on plantilla.hospital_cod = hospital.hospital_cod;
 end;
  */
+//</editor-fold>
 public class Class22CursorRegistroPlantilla {
 
     public static void main(String[] args) throws SQLException {
